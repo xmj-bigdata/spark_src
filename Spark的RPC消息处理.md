@@ -18,8 +18,8 @@ endpoints: ConcurrentMap[String, EndpointData] =
 
 然后 Enpoint->inBox[inBox->Message]
 ```
-data. inbox .post(message)
-val messages = w new java.util.LinkedList[InboxMessage]()
+data.inbox.post(message)
+val messages = new java.util.LinkedList[InboxMessage]()
 ```
 然后将 data 加入 receivers.offer(data)，receivers 负责跟踪存储那些有消息的 Endpoint。到此
 生产消息算是结束。
@@ -38,7 +38,7 @@ val numThreads = nettyEnv.conf.getInt("spark.rpc.netty.dispatcher.numThreads",
 消费处理的思路是从 receivers 里面取出有消息的 EndpointData，然后调用 inbox 对象的
 process 方法。里面进行模式匹配，然后重点是调用了 receive 或者 receiveAndReply 方法。
 ```val data = receivers.take()
-    data. inbox .process(Dispatcher.this)
+    data.inbox.process(Dispatcher.this)
 ```
 ### 3、消息存储
 Dispatcher 的 receivers 负责存储有消息的 EndpointData。

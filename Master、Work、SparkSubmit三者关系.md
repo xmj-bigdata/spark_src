@@ -10,8 +10,8 @@
 - 2.3、接收Driver端通过AppClient发送的ApplicationRegister请求，并向worker发送launchExecutor指令
 ## Worker
 - 1、心跳
-- launchExecutor
-- launchDriver
+- 接收Master的launchExecutor指令
+- 接收Master的launchDriver指令
 
 #调度代码
 Master调度启动Driver和Executor过程

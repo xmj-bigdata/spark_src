@@ -9,6 +9,7 @@
 检测序列化后的任务大小，超过 akkaFrameSize - AkkaUtils.reservedSizeBytes 128Mb-200kb。
 否则直接提交。
 启动Executor
+## eexecutorDataMap
 
 # DriverEndPoint
 ## 接收Executor信息
