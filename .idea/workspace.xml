@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd617341-7965-44d4-acc8-dfd24e16e6af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Spark性能调优和Troubleshooting.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmjspark/src/main/java/com/xml/sparkSrc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/复习/复习_20191210.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spark_src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spark_src.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Driver和Executor源码和启动相关过程.md" beforeDir="false" afterPath="$PROJECT_DIR$/Driver和Executor源码和启动相关过程.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Master、Work、SparkSubmit三者关系.md" beforeDir="false" afterPath="$PROJECT_DIR$/Master、Work、SparkSubmit三者关系.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spark的RPC消息处理.md" beforeDir="false" afterPath="$PROJECT_DIR$/Spark的RPC消息处理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmjspark/xmjspark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xmjspark/xmjspark.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spark性能调优和Troubleshooting.md" beforeDir="false" afterPath="$PROJECT_DIR$/Spark性能调优和Troubleshooting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe_log.md" beforeDir="false" afterPath="$PROJECT_DIR$/exe_log.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/复习/复习_20191210.md" beforeDir="false" afterPath="$PROJECT_DIR$/复习/复习_20191210.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xmjspark/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,10 +20,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xmjspark/src/main/java/com/xml/sparkSrc.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <entry file="file://$PROJECT_DIR$/Driver和Executor源码和启动相关过程.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="494">
+                <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exe_log.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="779">
+                <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -53,12 +61,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spark性能调优和Troubleshooting.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/复习/复习_20191210.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="399">
-                <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="570">
+                <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -66,20 +74,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/mvn_repository/org/apache/spark/spark-core_2.11/2.3.0/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/deploy/rest/StandaloneRestServer.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2413">
-              <caret line="149" column="22" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/复习/复习_20191210.md">
+        <entry file="file://$PROJECT_DIR$/Spark性能调优和Troubleshooting.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1065">
-                <caret line="79" column="2" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="2" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="399">
+                <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -90,8 +89,8 @@
         <entry file="file://$PROJECT_DIR$/Master、Work、SparkSubmit三者关系.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="342">
-                <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <first_editor relative-caret-position="171">
+                <caret line="9" column="50" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="50" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,11 +110,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spark的RPC消息处理.md">
+        <entry file="file://$PROJECT_DIR$/spark 内存，GC及数据结构调优.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="988">
-                <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+              <first_editor relative-caret-position="727">
+                <caret line="87" column="76" selection-start-line="87" selection-start-column="76" selection-end-line="87" selection-end-column="76" />
               </first_editor>
               <second_editor />
             </state>
@@ -123,8 +122,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/mvn_repository/org/apache/spark/spark-core_2.11/2.3.0/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/scheduler/DAGScheduler.scala">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Spark的RPC消息处理.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="703">
+                <caret line="52" selection-start-line="52" selection-end-line="53" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -137,14 +143,14 @@
       <list>
         <option value="$PROJECT_DIR$/spark 内存，GC及数据结构调优.md" />
         <option value="$PROJECT_DIR$/xmjspark/pom.xml" />
-        <option value="$PROJECT_DIR$/exe_log.md" />
         <option value="$PROJECT_DIR$/Spark的任务调度理论基础.md" />
         <option value="$PROJECT_DIR$/xmjspark/src/main/java/com/xml/sparkSrc.scala" />
         <option value="$PROJECT_DIR$/Spark的RPC消息处理.md" />
         <option value="$PROJECT_DIR$/Master、Work、SparkSubmit三者关系.md" />
-        <option value="$PROJECT_DIR$/Driver和Executor源码和启动相关过程.md" />
-        <option value="$PROJECT_DIR$/复习/复习_20191210.md" />
         <option value="$PROJECT_DIR$/Spark性能调优和Troubleshooting.md" />
+        <option value="$PROJECT_DIR$/复习/复习_20191210.md" />
+        <option value="$PROJECT_DIR$/Driver和Executor源码和启动相关过程.md" />
+        <option value="$PROJECT_DIR$/exe_log.md" />
       </list>
     </option>
   </component>
@@ -183,6 +189,11 @@
             <path>
               <item name="spark_src" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark_src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark_src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_src" type="462c0819:PsiDirectoryNode" />
+              <item name="复习" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark_src" type="b2602c69:ProjectViewProjectNode" />
@@ -269,7 +280,7 @@
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.26075268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.26075268" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -297,31 +308,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spark 内存，GC及数据结构调优.md">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="817">
-            <caret line="87" column="76" selection-start-line="87" selection-start-column="76" selection-end-line="87" selection-end-column="76" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xmjspark/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="28" column="55" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exe_log.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="532">
-            <caret line="28" column="32" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -364,16 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Driver和Executor源码和启动相关过程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="228">
-            <caret line="12" selection-start-line="12" selection-end-line="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/mvn_repository/org/apache/spark/spark-core_2.11/2.3.0/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/deploy/rest/StandaloneRestServer.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2413">
@@ -381,48 +361,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Master、Work、SparkSubmit三者关系.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="342">
-            <caret line="18" selection-start-line="18" selection-end-line="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spark的任务调度理论基础.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="14" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spark的RPC消息处理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="988">
-            <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/mvn_repository/org/apache/spark/spark-core_2.11/2.3.0/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/scheduler/DAGScheduler.scala">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/复习/复习_20191210.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1065">
-            <caret line="79" column="2" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xmjspark/src/main/java/com/xml/sparkSrc.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -445,11 +385,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Spark的任务调度理论基础.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="14" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark 内存，GC及数据结构调优.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="727">
+            <caret line="87" column="76" selection-start-line="87" selection-start-column="76" selection-end-line="87" selection-end-column="76" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Spark性能调优和Troubleshooting.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="399">
-            <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master、Work、SparkSubmit三者关系.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="171">
+            <caret line="9" column="50" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Driver和Executor源码和启动相关过程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="494">
+            <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/复习/复习_20191210.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="570">
+            <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark的RPC消息处理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="703">
+            <caret line="52" selection-start-line="52" selection-end-line="53" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_log.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="779">
+            <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>

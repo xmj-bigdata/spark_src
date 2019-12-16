@@ -15,7 +15,7 @@
 - 4、repartition解决sparkSQL并行度低问题
 - 5、reduceByKey的本地聚合
 ##shuffle调优
-- 1、Map文件聚合
+- 1、Map文件聚合 saprk.shuffle.consolidateFiles:true
 - 2、缓存区设置
     - spark.shuffle.file.buffer 32k
     - spark.shuffle.memoryFaction 0.2
